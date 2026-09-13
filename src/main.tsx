@@ -123,15 +123,11 @@ function ResumePage() {
           </div>
         </div>
         <div className="contact-strip">
-          <a href="tel:0435377195">
-            <Phone size={16} /> 0435 377 195
-          </a>
+
           <span className="contact-divider" />
           <span className="license">Licensed Driver</span>
           <span className="contact-divider" />
-          <a href="mailto:kaiulani.jk@gmail.com">
-            <Mail size={16} /> kaiulani.jk@gmail.com
-          </a>
+
         </div>
       </section>
       <section className="section about-section" id="about">
