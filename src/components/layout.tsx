@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 export function ResumeLayout() {
   return (
     <>
-      <header className="relative z-2 flex items-center justify-between bg-paper px-[6vw] py-6.5 max-[700px]:px-[5vw] max-[700px]:py-5">
+      <header className="sticky top-0 z-20 flex items-center justify-between border-b border-ink/10 bg-paper/95 px-[6vw] py-6.5 backdrop-blur-sm max-[700px]:px-[5vw] max-[700px]:py-5">
         <Link to="/" className="text-[1.35rem] font-extrabold tracking-[-0.08em]">
           KJ<span className="text-coral">.</span>
         </Link>
